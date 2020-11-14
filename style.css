@@ -1,0 +1,455 @@
+*{
+    background-color: #f5f5f5;
+}
+/* li{
+    list-style: none;
+} */
+.navpage{
+    height: 590px;
+    width: 1200px;
+    background-color: #515b66;
+    background-image: url(homepage/logo.jpg);
+    background-repeat: no-repeat;
+    background-position: 111px 33px;
+    margin: 0 auto;
+}
+
+.navbox{
+    background-color: #515b66;
+    width: 336px;
+    height: 49px;
+    float: right;
+}
+.homeposition{
+    display: block;
+    margin-top: 48px;
+    margin-left: -108px;
+    
+}
+.about{
+    display: block;
+    float: left;
+    background-color: #515b66;
+    color: #ffffff;
+    margin-top:-22px;
+    margin-left: 0px;
+    font-family: Helvetica Neue;
+    font-size: 15px;
+}
+.workcontact{
+    display: block;
+    float: left;
+    background-color: #515b66;
+    color: #ffffff;
+    margin-top:-22px;
+    margin-left: 43px;
+    font-family: Helvetica Neue;
+    font-size: 15px;
+}
+
+.phoneimg{
+    margin-left: 111px;
+    margin-top: 140px;
+    width: 390px;
+}
+ .introduct{
+    background-color: #515b66;
+    float: right;
+    margin-top: -435px;
+    margin-right:112px ;
+    width: 474px;
+    height: 291px;
+}
+.slogn{
+    background-color: #515b66;
+    font-size: 48px;
+    font-family:Helvetica Neue ;
+    color: #ffffff;
+}
+.moreintro{
+    background-color: #515b66;
+    font-size: 16px;
+    font-family:Helvetica Neue ;
+    color: #babbbd;
+    line-height:27px ;
+
+}
+.detailintro{
+    background-color: #515b66;
+    font-family:Helvetica Neue ;
+    font-size:16px;
+    color: #8b8c8e;
+    line-height: 28px;
+}
+.makerbutton{
+    width: 1200px;
+    height: 76px;
+    background-image: url(homepage/markerbutton.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+} 
+.computer{
+    margin-top:20px;
+    margin-left: 0px;
+    float: right;
+    width:237px;
+    height: 32px;
+    background-color:#515b66;
+}
+
+.computer rp{
+    background-color:#515b66;
+    float: left;
+    margin-left: 20px;
+    margin-top: -6px;
+  
+}
+.computerimg{
+    float: left;
+    margin-left: 31px;
+    margin-top: -53px;
+    border-bottom-width: 2px;
+    border-bottom-color: #ffffff;
+    border-bottom-style: solid;
+    /* border-bottom-color: white; */
+}
+.quotebutton{
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.readmore{
+    width: 1200px;
+    height: 512px;
+    margin: 0 auto;
+}
+.readmore1{
+    float: left;
+    /* display: inline-block; */
+    margin-left: 111px;
+    width: 306px;
+    height: 512px;
+}
+.readmore2{
+    float: left;
+    /* display: inline-block; */
+    margin-left: 30px;
+    width: 306px;
+    height: 512px;
+    
+}
+.readmore3{
+    float: left;
+    /* display: inline-block; */
+    margin-left: 30px;
+    width: 306px;
+    height: 512px;
+}
+ .icon{
+    width: 134px;
+    height: 134px;
+    margin-left: 86px;
+    margin-right: 86px;
+    margin-top:92px;
+}
+.title{
+    color: #515b66;
+    font-family: Helvetica Neue;
+    font-size: 20px;
+    /* font-weight: 700; */
+    text-align: center;
+}
+.info{
+    color: #bdbdbd;
+    font-family: Helvetica Neue;
+    font-size: 13px;
+    /* font-weight: 300; */
+    text-align: center;
+    height: 45px;
+    width: 306px;
+}
+.readmorebutton{
+    margin-left:86px;
+    margin-top: 34px;
+}
+.or{
+    background-color:#515b66;
+    display: block;
+    float: left;
+    margin-left: 31px;
+    margin-top: -3px;
+}
+.pstyle{
+    background-color:#515b66;
+    display: block;
+    float: left;
+    color: white; 
+    margin-right: 12px;
+}
+.pstyle2{
+    color: white;
+    display: block;
+    float: left;
+    margin-top: -55px;
+    margin-left: 54px;
+    background-color: #515b66;
+    font-family: Helvetica Neue;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.picshow{
+    margin: auto;
+    width: 1200px;
+    height: 211px;
+}
+.introtitle{
+    margin-left: 111px;
+}
+.introp{
+    display: inline;
+    font-family: Helvetica Neue;
+    font-size: 20px;
+    color:#8b9096 ;
+}
+.leftarrow{
+    margin-left: 40px;
+    margin-bottom: 62px;
+}
+.picf{
+    margin-left:33px ;
+    margin-top: 22px;
+    border-radius:3px;
+    box-shadow:rgba(0,0,0,0.15) 0 0 8px;
+    background:#FBFBFB;
+    border:1px solid #ddd;
+    padding:5px;
+}
+.pics{
+    margin-left: 20px;
+    border-radius:3px;
+    box-shadow:rgba(0,0,0,0.15) 0 0 8px;
+    background:#FBFBFB;
+    border:1px solid #ddd;
+    padding:5px;
+}
+.pict{
+    margin-left: 20px;
+    border-radius:3px;
+    box-shadow:rgba(0,0,0,0.15) 0 0 8px;
+    background:#FBFBFB;
+    border:1px solid #ddd;
+    padding:5px;
+}
+.picf2{
+    margin-left: 20px;
+    border-radius:3px;
+    box-shadow:rgba(0,0,0,0.15) 0 0 8px;
+    background:#FBFBFB;
+    border:1px solid #ddd;
+    padding:5px;
+}
+.picborder{
+    border-radius:3px;
+    box-shadow:rgba(0,0,0,0.15) 0 0 8px;
+    background:#FBFBFB;
+    border:1px solid #ddd;
+    padding:2px;
+}
+.rightarrow{
+    margin-left: 33px;
+    margin-bottom: 62px;
+}
+
+/* 联系我们部分  */
+
+
+.contactus{
+    width: 978px;
+    height: 371px;
+    margin: 113px auto;
+}
+.fromourblog{
+    width: 474px;
+    height: 318px;
+    float: left;
+    margin-left: 0px;
+}
+.fromtitle{
+    width: 474px;
+    height: 30px;
+}
+.fromp{
+    display: inline;
+    font-family: Helvetica Neue;
+    font-size: 20px;
+    color:#8b9096 ;
+}
+
+.ourtwitterfeed{
+    width: 390px;
+    height: 318px;
+    float: right;
+    
+}
+.twitterp{
+    display: inline;
+    font-family: Helvetica Neue;
+    font-size: 20px;
+    color:#8b9096 ;
+}
+.massagebox{
+    width: 474px;
+    height: 105px;
+    margin-top: 20px;
+}
+.review1{
+    float: right;
+    height:105px;
+    width: 306px;
+}
+.reviewp{
+    float: left;
+    margin-top: -6px;
+    /* margin-right: 115px; */
+    /* margin-bottom: 0px; */
+    font-family:Helvetica Neue ;
+    font-size: 15px;
+    color: #5c5c5c;
+}
+.review{
+    font-family: Helvetica Neue;
+    font-size: 13px;
+    color: #888888;
+    float: right;
+    margin-right: 14px;
+    margin-top:-12px;
+    line-height: 25px;
+    
+} 
+.readmorelink{
+    text-decoration: none;
+    float: left;
+    margin-left: 136px;
+    margin-top: -33px;
+    font-family: Helvetica Neue;
+    font-size: 13px;
+    color:#5f91cd;
+}
+.time{
+    font-size: 11px;
+    font-family: Helvetica Neue;
+    color: #c5c5c5;
+    float: left;
+    margin-left: 0px;
+    margin-top: -12px;
+}
+.olderentries{
+    font-size: 13px;
+    font-family: Helvetica Neue;
+    color: #5f91cd;
+    
+}
+.massagebox2{
+    width: 390px;
+    height: 85px;
+    float: left;
+    margin-top: 0px;
+}
+
+.apptastico{
+    font-family: Helvetica Neue;
+    float: left;
+    margin-top: 14px;
+    font-size: 13px;
+    font-weight: 300;
+    float: left;
+}
+.pellentesque{
+    text-decoration: none;
+    float: left;
+    margin-left: 5px;
+    margin-top: 12px;
+    color: #93b2dc;
+    font-size: 14px;
+
+}
+.faucibus{
+    font-family: Helvetica Neue;
+    font-size: 13px;
+    color: #888888;
+    float: left;
+    margin-top: 15px;
+    margin-left: 5px;
+
+}
+.nulla{
+    font-family: Helvetica Neue;
+    font-size: 13px;
+    color: #888888;
+    float: left;
+    margin-top: 2px;
+    margin-left: 0px;
+}
+.purus{
+    text-decoration: none;
+    float: left;
+    margin-left: 5px;
+    margin-top: -1px;
+    color: #93b2dc;
+    font-size: 14px;
+}
+.inp{
+    font-family: Helvetica Neue;
+    font-size: 13px;
+    color: #888888;
+    float: left;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.blandint{
+    text-decoration: none;
+    float: left;
+    margin-left: 5px;
+    margin-top: 0px;
+    color: #93b2dc;
+    font-size: 14px;
+}
+.time1{
+    font-size: 11px;
+    font-family: Helvetica Neue;
+    color: #c5c5c5;
+    float: left;
+    margin-left: -342px;
+    margin-top: 31px;
+}
+.followus{
+    font-size: 13px;
+    font-family: Helvetica Neue;
+    color: #5f91cd;
+    float: left;
+    margin-bottom: 0px;
+    
+}
+.copyright{
+    width: 978px;
+    height: 60px;
+    border-top:1px solid rgba(182, 182, 172,.5);
+    float: left;
+    margin-top: 38px;
+}
+.copyrightinfo{
+    font-family: Helvetica Neue;
+    font-size: 13px;
+    color: #888888;
+}
+.iconbox{
+    width: 168px;
+    height: 46px;
+    float: right;
+    margin-top: -28px;
+    margin-right: -15px;
+}
+.iconalign{
+    margin-left: 5px;
+}
