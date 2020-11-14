@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function unique(arr) {
+            var newArry = [];
+            for (var i = 0; i < arr.length; i++) {
+                if (newArry.indexOf(arr[i]) === -1)
+                    newArry.push(arr[i]);
+            }
+            return newArry;
+        }
+
+        var demo = unique(['a', 'n', 'b', 'a', 'b', 'c']);
+        console.log(demo);
+
+    </script>
+</head>
+
+<body>
+    <!-- 灰色导航简介界面 -->
+    <div class="navpage">
+        <img src="homepage/phone.jpg" alt="加载失败" class="phoneimg">
+        <div class="navbox">
+            <img src="homepage/home.jpg" alt="加载失败" class="homeposition">
+            <p class="about">About</p>
+            <p class="workcontact">Work</p>
+            <p class="workcontact">Contact</p>
+        </div>
+        <div class="introduct">
+            <h1 class="slogn">We design iOS apps</h1>
+            <p class="moreintro">Ut In Nulla Enim. Phasellus Molestie Magna Non Est Bibendum Non Venenatis ut In
+                Nulla
+                Enim. Phasellus
+                Molestie.
+            </p>
+            <p class="detailintro">Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus
+                rhoncus
+                ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie tempor. Suspendisse dictum feugiat.
+            </p>
+
+            <img src="homepage/quote button.jpg" alt="加载失败" class="quotebutton">
+            <div class="or">
+                <p class="pstyle">or</p>
+            </div>
+            <div class="computer">
+                <img src="homepage/more computer.jpg" alt="加载失败" class="computerimg">
+                <p class="pstyle2">See our recent work</p>
+            </div>
+        </div>
+    </div>
+    <!-- 中间的赞助商logo图片 -->
+
+    <div class="makerbutton"></div>
+
+    <!-- 图标加简介界面 -->
+    <div class="readmore">
+        <!-- 1，左侧 -->
+        <div class="readmore1">
+            <img src="homepage/engaginginterfaces.jpg" alt="加载失败" class="icon">
+            <p class="title">Engaging interfaces</p>
+            <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed
+                urna
+                ultricies
+                ac tempor dui sagittis.
+            </p>
+            <img src="homepage/readmore.jpg" alt="加载失败" class="readmorebutton">
+        </div>
+
+        <!-- 2,中间 -->
+        <div class="readmore2">
+            <img src="homepage/usabledesigns.jpg" alt="加载失败" class="icon">
+            <p class="title">Usable designs</p>
+            <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed
+                urna
+                ultricies
+                ac tempor dui sagittis.
+            </p>
+            <img src="homepage/readmore.jpg" alt="加载失败" class="readmorebutton">
+        </div>
+
+        <!-- 3,右侧 -->
+        <div class="readmore3">
+            <img src="homepage/soliddevelopment.jpg" alt="加载失败" class="icon">
+            <p class="title">Solid development</p>
+            <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed
+                urna
+                ultricies
+                ac tempor dui sagittis.
+            </p>
+            <img src="homepage/readmore.jpg" alt="加载失败" class="readmorebutton">
+        </div>
+    </div>
+    </div>
+    <!-- 图片滑动界面 -->
+    <div class="picshow">
+        <div class="introtitle">
+            <img src="homepage/leaderpicture.jpg" alt='加载失败'>
+            <p class="introp">Selected projects</p>
+        </div>
+        <img src="homepage/leftarrow.jpg" alt="加载失败" class="leftarrow">
+        <img src="homepage/first.jpg" alt="加载失败" class="picf">
+        <img src="homepage/second.jpg" alt="加载失败" class="pics">
+        <img src="homepage/third.jpg" alt="加载失败" class="pict">
+        <img src="homepage/forth.jpg" alt="加载失败" class="picf2">
+        <img src="homepage/rightarrow.jpg" alt="加载失败" class="rightarrow">
+    </div>
+
+    <!-- 联系我们界面 -->
+    <div class="contactus">
+        <div class="fromourblog">
+            <div class="fromtitle">
+                <img src="homepage/fromblog.jpg" alt="加载失败">
+                <p class="fromp">From our blog</p>
+            </div>
+            <div class="massagebox">
+                <img src="homepage/first1.jpg" alt="加载失败" class="picborder">
+                <div class="review1">
+                    <p class="reviewp">Our work process reviewed</p>
+                    <p class="review">Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse
+                        dictum feugiat nisl ut dapibus mauris. </p>
+                    <a href="#" class="readmorelink">Read more</a>
+                    <p class="time">01/01/13 - 10:21 AM</p>
+                </div>
+            </div>
+            <div class="massagebox">
+                <img src="homepage/second2.jpg" alt="加载失败" class="picborder">
+                <div class="review1">
+                    <p class="reviewp">Who we are at Appcompany</p>
+                    <p class="review">Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse
+                        dictum feugiat nisl ut dapibus mauris. </p>
+                    <a href="#" class="readmorelink">Read more</a>
+                    <p class="time">01/01/13 - 10:21 AM</p>
+                </div>
+            </div>
+            <p class="olderentries">Older entries</p>
+
+        </div>
+        <div class="ourtwitterfeed">
+            <div class="twittertilte">
+                <img src="homepage/twitter1.jpg" alt="加载失败">
+                <p class="twitterp">Our Twitter feed</p>
+            </div>
+            <div class="massagebox2">
+                <p class="apptastico">@Apptastico:In</p>
+                <a href="#" class="pellentesque">pellentesque.com</a>
+                <p class="faucibus">faucibus vestibulum. Nulla at</p>
+                <p class="nulla">nulla justo, eget Duis aliquet egestas</p>
+                <a href="#" class="purus">#purus</a>
+                <p class="inp">in</p>
+                <a href="#" class="blandint">#blandint</a>
+                <p class="time1">01/01/13 - 10:21 AM</p>
+            </div>
+            <div class="massagebox2">
+                <p class="apptastico">@Apptastico:In</p>
+                <a href="#" class="pellentesque">pellentesque.com</a>
+                <p class="faucibus">faucibus vestibulum. Nulla at</p>
+                <p class="nulla">nulla justo, eget Duis aliquet egestas</p>
+                <a href="#" class="purus">#purus</a>
+                <p class="inp">in</p>
+                <a href="#" class="blandint">#blandint</a>
+                <p class="time1">01/01/13 - 10:21 AM</p>
+            </div>
+            <div class="massagebox2">
+                <p class="apptastico">@Apptastico:In</p>
+                <a href="#" class="pellentesque">pellentesque.com</a>
+                <p class="faucibus">faucibus vestibulum. Nulla at</p>
+                <p class="nulla">nulla justo, eget Duis aliquet egestas</p>
+                <a href="#" class="purus">#purus</a>
+                <p class="inp">in</p>
+                <a href="#" class="blandint">#blandint</a>
+                <p class="time1">01/01/13 - 10:21 AM</p>
+            </div>
+            <p class="followus">Follow us on Twitter</p>
+
+        </div>
+
+        <!-- copyright栏 -->
+        <div class="copyright">
+            <p class="copyrightinfo">© Christoffer Jensen 2013</p>
+            <div class="iconbox">
+                <img src="homepage/facebook.jpg" alt="加载失败" class="iconalign">
+                <img src="homepage/twitter2.jpg" alt="加载失败" class="iconalign">
+                <img src="homepage/in.jpg" alt="加载失败" class="iconalign">
+                <img src="homepage/ball.jpg" alt="加载失败" class="iconalign">
+            </div>
+        </div>
+</body>
+
+</html>
